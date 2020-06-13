@@ -1,0 +1,482 @@
+body{
+    margin: 0px;
+}
+
+@media only screen and (min-width: 601px) {
+/*here starts navigation*/
+.navigation {
+    margin: 0px;
+    /*display: flex;
+    flex-direction: row;*/
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 100px;
+}
+.logo {
+    font-family: 'Gudea', sans-serif;
+    font-size: 32px;
+    display: inline-block;
+}
+.logobold {
+    font-weight: 900;
+    font-family: 'Gudea', sans-serif;
+    font-size: 32px;
+    padding-left: 100px;
+    display: inline-block;
+    padding-top: 10px;
+}
+.logo:hover {
+    cursor: pointer;
+}
+.logobold {
+    cursor: pointer;
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.nav{
+    font-family: 'Gudea', sans-serif;
+    font-size: 24px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+}
+.mobilenav {
+    font-family: 'Gudea', sans-serif;
+    font-size: 24px;
+}
+.nav:hover{
+    font-weight: bold;
+    cursor: pointer;
+    color: #399191;
+}
+#menu {
+    display: none;
+}
+/*here is end of navigation*/
+.heroImg {
+    height: 400px;
+    margin: 0px;
+    display: inline-block;
+    background-color: #F0F6F6;
+    width: 100%;
+}
+.content {
+    margin: 0px; 
+    padding-left: 100px; 
+    padding-top: 50px;
+    padding-bottom:10px;
+    padding-right: 20px; 
+}
+.content img {
+    float: right;
+    height: 275px;
+    width: 275px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.content button {
+    margin-top: 50px;
+}
+footer {
+    background-color: #2E476D;
+    height: 400px;
+}
+.header {
+    height: 50px;
+    padding: 50px;
+}
+h1 {
+    font-family: 'Gudea', sans-serif;
+    font-size: 36px;
+}
+h2 {
+    font-family: 'Gudea', sans-serif;
+    font-size: 24px; 
+}
+h3 {
+    font-family: 'Gudea', sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+h4 {
+    font-family: 'Gudea', sans-serif;
+    font-size: 24px;   
+}
+h5 {
+    font-family: 'Gudea', sans-serif;
+    font-size: 14px;  
+    color: #399191;
+}
+p {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+#footerh2 {
+    color: white;
+    text-align: center;
+}
+button {
+    background-color: #399191;
+    color: white;
+    margin: auto;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    border: none;
+}
+button:hover {
+    background-color: #2A6D6D;
+}
+.container {
+    width: 400px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+.icons {
+    display: block;
+}
+.myicon{
+    padding: 10px;
+    cursor: pointer;
+}
+.email {
+    margin: 50px;
+}
+.whitecopy {
+    color: white;
+    text-align: center;
+}
+#PC {
+    float: left;
+    width: 225.5px;
+    height: 370px;
+    padding-right: 100px;
+}
+.FeaturedWorkSection {
+    padding: 50px;
+    background-color:#E4EAFF;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 320px;
+}
+.sticky {
+    position: sticky;
+    top: 75%;
+    float: right;
+    margin-right: 25px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+#Up:hover {
+    transform: scale(1.1);
+}
+.CaseStudySection {
+    display: grid;
+    grid-template-columns: 50%, 50%;
+    grid-template-areas: 
+    "Morsel Vamos";
+}
+.CaseStudies {
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+.FeaturedWorkSection {
+    cursor: pointer;
+}
+.CaseStudy1 {
+    grid-area: Morsel;
+    background-color: #F0F6F6;
+    margin-left: 90px;
+}
+.CaseStudy2 {
+    grid-area: Vamos;
+    background-color: #FFF2F0;
+    margin-right: 15px;
+}
+.CaseStudies h4 {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.CaseStudies h5 {
+    padding-left: 50px;
+}
+.CaseStudies p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.CaseStudies button {
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.button2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.CaseStudy1 img {
+    width: 503.125px;
+    height: 401.875px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.CaseStudy2 img {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 503.125px;
+    height: 401.875px;
+}
+}
+
+  /* ---  MOBILE MEDIA QUERY  ---  */
+@media only screen and (max-width: 600px) {
+/*here starts navigation*/
+.navigation {
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+.logo {
+    font-family: 'Gudea', sans-serif;
+    font-size: 32px;
+    display: inline-block;
+}
+.logobold {
+    font-weight: 900;
+    font-family: 'Gudea', sans-serif;
+    font-size: 32px;
+    padding-left: 25px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.logo:hover {
+    cursor: pointer;
+}
+.logobold {
+    cursor: pointer;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    display: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.nav{
+    font-family: 'Gudea', sans-serif;
+    font-size: 24px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+}
+.nav:hover{
+    font-weight: bold;
+    cursor: pointer;
+    color: #399191;
+}
+#menu {
+    float: right;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.active {
+    display: block;
+}
+.dropdown {
+    background-color: #FFFFFF;
+}
+/*here is end of navigation*/
+.heroImg {
+    height: 600px;
+    margin: 0px;
+    display: inline-block;
+    background-color: #F0F6F6;
+    width: 100%;
+}
+.content {
+    margin: 0px; 
+    padding-left: 25px; 
+    padding-top: 20px;
+    padding-bottom:10px;
+    padding-right: 25px; 
+    text-align: center;
+}
+.content img {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+}
+.content button {
+    margin-top: 25px;
+}
+footer {
+    background-color: #2E476D;
+    height: 400px;
+}
+.header {
+    height: 50px;
+    padding: 20px;
+}
+h1 {
+    font-family: 'Gudea', sans-serif;
+    font-size: 24px;
+}
+h2 {
+    font-family: 'Gudea', sans-serif;
+    font-size: 24px; 
+}
+h3 {
+    font-family: 'Gudea', sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+h4 {
+    font-family: 'Gudea', sans-serif;
+    font-size: 24px;   
+}
+h5 {
+    font-family: 'Gudea', sans-serif;
+    font-size: 14px;  
+    color: #399191;
+}
+p {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+#footerh2 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+button {
+    background-color: #399191;
+    color: white;
+    margin: auto;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    border: none;
+}
+.container {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+.icons {
+    display: block;
+}
+
+.myicon{
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.email {
+    margin-top: 120px;
+}
+.whitecopy {
+    color: white;
+    text-align: center;
+}
+#PC {
+    float: left;
+    width: 141px;
+    height: 231.25px;
+    padding: 25px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+}
+.FeaturedWorkSection {
+    padding: 25px;
+    background-color:#E4EAFF;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    height: 400px;
+}
+.sticky {
+    position: sticky;
+    top: 75%;
+    float: right;
+    margin-right: 25px;
+    margin-left: 0px;
+}
+.CaseStudySection {
+    display: block;
+}
+.CaseStudy1 {
+    background-color: #F0F6F6;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.CaseStudy2 {
+    background-color: #FFF2F0;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.CaseStudies h4 {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 0px;
+}
+.CaseStudies h5 {
+    padding-left: 25px;
+}
+.CaseStudies p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.CaseStudies button {
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.button2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.CaseStudy1 img {
+    width: 393.75px;
+    height: 314px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.CaseStudy2 img {
+    width: 393.75px;
+    height: 314px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+}
