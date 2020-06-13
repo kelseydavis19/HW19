@@ -155,7 +155,8 @@ button:hover {
     cursor: pointer;
 }
 .email {
-    margin: 50px;
+    margin-top: 0px;
+    margin-bottom: 75px;
 }
 .whitecopy {
     color: white;
@@ -399,7 +400,8 @@ button {
     margin-top: 50px;
 }
 .email {
-    margin-top: 120px;
+    margin-top: 0px;
+    margin-bottom: 75px;
 }
 .whitecopy {
     color: white;
